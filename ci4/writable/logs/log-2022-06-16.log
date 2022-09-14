@@ -1,0 +1,181 @@
+ERROR - 2022-06-16 01:59:29 --> Error connecting to the database: Unknown database 'dbrestoran'
+CRITICAL - 2022-06-16 01:59:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbrestoran'
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblkategori`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\admin\Kategori.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-16 02:00:58 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-16 02:00:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblkategori`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\admin\Kategori.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-16 02:01:18 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-16 02:01:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblkategori`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\admin\Kategori.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:03:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 857.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table('C:\\xampp\\htdocs\\restoran-ci4')
+ 2 SYSTEMPATH\Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\admin\Kategori.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:13:26 --> syntax error, unexpected token "]"
+in APPPATH\Controllers\admin\Kategori.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\admin\\Kategori.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\kategori')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\kategori')
+ 4 SYSTEMPATH\CodeIgniter.php(853): class_exists('\\App\\Controllers\\Admin\\kategori', true)
+ 5 SYSTEMPATH\CodeIgniter.php(460): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:37:37 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:37:38 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:37:39 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:37:39 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:37:39 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 02:37:40 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 08:00:06 --> Cannot access offset of type string on string
+in APPPATH\Views\kategori\select.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 4 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 08:01:41 --> Undefined array key 1
+in APPPATH\Views\kategori\select.php on line 12.
+ 1 APPPATH\Views\kategori\select.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\kategori\\select.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 5 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 08:03:26 --> Undefined array key 0
+in APPPATH\Views\kategori\select.php on line 16.
+ 1 APPPATH\Views\kategori\select.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\kategori\\select.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 5 APPPATH\Controllers\admin\Kategori.php(29): view('kategori/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\admin\Kategori->select()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 21:43:55 --> Class "Config\Servis" not found
+in APPPATH\Controllers\admin\User.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\User->createRakha()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 21:45:49 --> Undefined variable $session
+in APPPATH\Controllers\admin\User.php on line 28.
+ 1 APPPATH\Controllers\admin\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\admin\\User.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\User->readRakha()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 21:46:23 --> Undefined variable $tbluser
+in APPPATH\Controllers\admin\User.php on line 30.
+ 1 APPPATH\Controllers\admin\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbluser', 'APPPATH\\Controllers\\admin\\User.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\User->readRakha()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-16 21:51:45 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\admin\User.php on line 31.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/user/createRakha')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/user/createRakha')
+ 3 SYSTEMPATH\CodeIgniter.php(778): CodeIgniter\Router\Router->handle('admin/user/createRakha')
+ 4 SYSTEMPATH\CodeIgniter.php(422): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

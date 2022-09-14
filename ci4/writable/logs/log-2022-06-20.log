@@ -1,0 +1,94 @@
+CRITICAL - 2022-06-20 02:33:17 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\admin\Order.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Order->index()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:53:27 --> Undefined variable $perpage
+in APPPATH\Views\order\select.php on line 52.
+ 1 APPPATH\Views\order\select.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $perpage', 'APPPATH\\Views\\order\\select.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/select', [], true)
+ 5 APPPATH\Controllers\admin\Order.php(27): view('order/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:53:40 --> CodeIgniter\Pager\Pager::makeLinks(): Argument #1 ($page) must be of type int, string given, called in C:\xampp\htdocs\restoran-ci4\ci4\app\Views\menu\select.php on line 68
+in SYSTEMPATH\Pager\Pager.php on line 104.
+ 1 APPPATH\Views\menu\select.php(68): CodeIgniter\Pager\Pager->makeLinks('page', 'FCPATH\\bootstrap')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/select', [], true)
+ 5 APPPATH\Controllers\admin\Menu.php(29): view('menu/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:54:03 --> Undefined variable $perpage
+in APPPATH\Views\order\select.php on line 52.
+ 1 APPPATH\Views\order\select.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $perpage', 'APPPATH\\Views\\order\\select.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/select', [], true)
+ 5 APPPATH\Controllers\admin\Order.php(27): view('order/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 21:03:36 --> Undefined variable $kategori
+in APPPATH\Views\order\update.php on line 25.
+ 1 APPPATH\Views\order\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\order\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/update', [], true)
+ 5 APPPATH\Controllers\admin\Order.php(59): view('order/update')
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Order->findRakha('1')
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 22:34:03 --> Undefined array key "orderdetail"
+in APPPATH\Views\orderdetail\select.php on line 47.
+ 1 APPPATH\Views\orderdetail\select.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orderdetail"', 'APPPATH\\Views\\orderdetail\\select.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\orderdetail\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('orderdetail/select', [], true)
+ 5 APPPATH\Controllers\admin\OrderDetail.php(27): view('orderdetail/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\OrderDetail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OrderDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 22:35:09 --> Undefined array key "harga "
+in APPPATH\Views\orderdetail\select.php on line 46.
+ 1 APPPATH\Views\orderdetail\select.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga "', 'APPPATH\\Views\\orderdetail\\select.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\orderdetail\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('orderdetail/select', [], true)
+ 5 APPPATH\Controllers\admin\OrderDetail.php(27): view('orderdetail/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\OrderDetail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OrderDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 22:54:56 --> Undefined variable $pager
+in APPPATH\Views\orderdetail\cari.php on line 74.
+ 1 APPPATH\Views\orderdetail\cari.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\orderdetail\\cari.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\orderdetail\\cari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('orderdetail/cari', [], true)
+ 5 APPPATH\Controllers\admin\OrderDetail.php(47): view('orderdetail/cari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\OrderDetail->cari()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\OrderDetail))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 23:04:59 --> Undefined variable $user
+in APPPATH\Views\user\select.php on line 44.
+ 1 APPPATH\Views\user\select.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\user\\select.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/select', [], true)
+ 5 APPPATH\Controllers\admin\User.php(29): view('user/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

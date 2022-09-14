@@ -1,0 +1,128 @@
+CRITICAL - 2022-06-19 21:04:49 --> Undefined variable $kategori
+in APPPATH\Views\kategori\update.php on line 25.
+ 1 APPPATH\Views\kategori\update.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\kategori\\update.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\admin\Menu.php(69): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Menu->findRakha('1')
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 21:07:07 --> Undefined variable $kategori
+in APPPATH\Views\menu\update.php on line 24.
+ 1 APPPATH\Views\menu\update.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\menu\\update.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/update', [], true)
+ 5 APPPATH\Controllers\admin\Menu.php(69): view('menu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Menu->findRakha('1')
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:56:31 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:56:31 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:59:43 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:59:43 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:59:44 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:59:44 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:59:44 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:59:44 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:59:45 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:59:45 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:59:45 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:59:45 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 21:59:45 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 21:59:45 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 22:20:48 --> Table 'dbrestoran.tblpelanggan' doesn't exist
+CRITICAL - 2022-06-19 22:20:48 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\admin\Pelanggan.php(15): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 5 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 22:55:06 --> Undefined array key "keterangan"
+in APPPATH\Views\pelanggan\select.php on line 48.
+ 1 APPPATH\Views\pelanggan\select.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'APPPATH\\Views\\pelanggan\\select.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelanggan\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelanggan/select', [], true)
+ 5 APPPATH\Controllers\admin\Pelanggan.php(27): view('pelanggan/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 22:55:08 --> Undefined array key "keterangan"
+in APPPATH\Views\pelanggan\select.php on line 48.
+ 1 APPPATH\Views\pelanggan\select.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'APPPATH\\Views\\pelanggan\\select.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelanggan\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelanggan/select', [], true)
+ 5 APPPATH\Controllers\admin\Pelanggan.php(27): view('pelanggan/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 23:07:21 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-06-19 23:07:26 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-06-19 23:07:29 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-06-19 23:07:40 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-06-19 23:07:42 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-19 23:10:53 --> Undefined variable $isi
+in APPPATH\Controllers\admin\Pelanggan.php on line 40.
+ 1 APPPATH\Controllers\admin\Pelanggan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Controllers\\admin\\Pelanggan.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Pelanggan->update('1', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

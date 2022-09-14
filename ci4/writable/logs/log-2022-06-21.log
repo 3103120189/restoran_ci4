@@ -1,0 +1,20 @@
+CRITICAL - 2022-06-21 01:55:36 --> Undefined variable $level
+in APPPATH\Views\user\update.php on line 36.
+ 1 APPPATH\Views\user\update.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $level', 'APPPATH\\Views\\user\\update.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/update', [], true)
+ 5 APPPATH\Controllers\admin\User.php(85): view('user/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\User->find('1')
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 02:00:43 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\user\update.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/update', [], true)
+ 3 APPPATH\Controllers\admin\User.php(87): view('user/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\User->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 6 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
